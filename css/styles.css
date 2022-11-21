@@ -94,11 +94,7 @@ img {
   overflow: hidden;
 }
 
-
-/* MAIN-CONTENT  */
-.main-content {
-  flex-grow: 1;
-}
+/* HEADER */
 .site-header-container{
   display: flex;
   justify-content: space-between;
@@ -108,6 +104,62 @@ img {
 .site-heading{
   margin: 0;
   font-size: 24px;
-  line-height: 800;
+  font-weight: 800;
   line-height: auto;
+}
+
+
+/* MAIN-CONTENT  */
+.main-content {
+  flex-grow: 1;
+  background-color: #F2F2F2;
+}
+.search-form{
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.search-input{
+  padding: 18px 150px 18px 32px;
+  border: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #848484;
+
+}
+.grid{
+  display: grid;
+  grid-template-areas: "card card card card";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 75px;
+}
+.countries{
+  background-color: #fff;
+}
+.flags-img{
+  display: block;
+}
+.country{
+  padding-top: 24px;
+  padding-left: 24px;
+}
+.country-title{
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 800;
+  color: #111517;
+}
+.country-text{
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 300;
+}
+.bold-text{
+  font-weight: 600;
 }
