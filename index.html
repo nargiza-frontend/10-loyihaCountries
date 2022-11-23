@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <!-- <link rel="stylesheet" href="css/css.min.css"> -->
 </head>
-<body>
+<body class="">
   <!-- HEADER -->
   <header class="site-header">
     <div class="container site-header-container">
@@ -25,15 +25,15 @@
 
   </header>
   <!-- MAIN -->
-  <main class="main-content">
+  <main class="main-content dark-main-content">
     <div class="container">
-      <form  class="search-form" action="https://echo.htmlacademy.ru" method="post">
+      <form  class="search-form" action="https://echo.htmlacademy.ru" method="get">
         <div class="input-devider">
-          <input class="search-input" name="search" id="search country" type="search" placeholder="Search for a country…">
+          <input class="search-input" name="search" id="search country" type="search" aria-label="Country name" placeholder="Search for a country…">
         </div>
         <div class="search-form-region">
-          <select class="filter" name="filter" id="filter by region">
-            <option value="">Filter by region</option>
+          <select class="filter" name="region" aria-label="Regions" id="filter by region">
+            <!-- <option value="">Filter by region</option> -->
             <option value="">Africa</option>
             <option value="">America</option>
             <option value="">Asia</option>
