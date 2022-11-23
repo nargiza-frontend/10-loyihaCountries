@@ -27,112 +27,180 @@
   <!-- MAIN -->
   <main class="main-content">
     <div class="container">
-      <form  class="search-form" action="">
-        <input class="search-input" name="search" id="search country" type="search" placeholder="Search for a country…">
+      <form  class="search-form" action="https://echo.htmlacademy.ru" method="post">
+        <div class="input-devider">
+          <input class="search-input" name="search" id="search country" type="search" placeholder="Search for a country…">
+        </div>
+        <div class="search-form-region">
+          <select class="filter" name="filter" id="filter by region">
+            <option value="">Filter by region</option>
+            <option value="">Africa</option>
+            <option value="">America</option>
+            <option value="">Asia</option>
+            <option value="">Europe</option>
+            <option value="">Oceania</option>
+          </select>
+        </div>
       </form>
       <div class="grid">
         <div class="countries">
-          <img class="flags-img" src="img/Germany.jpg" alt="Germany flag" width="267" height="160">
+          <img class="flags-img" src="img/Germany.jpg" srcset="img/Germany.jpg, img/Germany@2x.jpg" alt="Germany flag" width="267" height="160">
           <div class="country">
             <h2 class="country-title">
-              Germany
+              <a href="#" class="country-link">Germany</a>
             </h2>
-            <p class="country-text">
-              <span class="bold-text">Population:</span> 81,770,900 <br>
-              <span class="bold-text">Region:</span> Europe <br>
-              <span class="bold-text">Capital:</span> Berlin
-            </p>
+            <dl class="country-list">
+              <dd class="country-list-item">Population:</dd>
+              <dt class="country-list-type">81,770,900</dt>
+            </dl>
+            <dl class="country-list">
+              <dd class="country-list-item">Region:</dd>
+              <dt class="country-list-type">Europe</dt>
+            </dl>
+            <dl class="country-list">
+              <dd class="country-list-item">Capital:</dd>
+              <dt class="country-list-type">Berlin</dt>
+            </dl>
           </div>
         </div>
         <div class="countries">
-          <img class="flags-img" src="img/USA.jpg" alt="United States of Amerika flag" width="267" height="160">
+          <img class="flags-img" src="img/USA.jpg" srcset="img/USA.jpg, img/USA@2x.jpg" alt="United States of Amerika flag" width="267" height="160">
           <div class="country">
             <h2 class="country-title">
-              United States of Amerika
+              <a href="#" class="country-link">United States of America</a>
             </h2>
-            <p class="country-text">
-              <span class="bold-text">Population:</span> 323,947,000 <br>
-              <span class="bold-text">Region:</span> Americas <br>
-              <span class="bold-text">Capital:</span> Washington, D.C.
-            </p>
+            <dl class="country-list">
+              <dd class="country-list-item">Population:</dd>
+              <dt class="country-list-type">323,947,000</dt>
+            </dl>
+            <dl class="country-list">
+              <dd class="country-list-item">Region:</dd>
+              <dt class="country-list-type">Americas</dt>
+            </dl>
+            <dl class="country-list">
+              <dd class="country-list-item">Capital:</dd>
+              <dt class="country-list-type">Washington D.C</dt>
+            </dl>
           </div>
         </div>
         <div class="countries">
-          <img class="flags-img" src="img/Brazil.jpg" alt="Brazil flag" width="267" height="160">
+          <img class="flags-img" src="img/Brazil.jpg" srcset="img/Brazil.jpg, img/Brazil@2x.jpg" alt="Brazil flag" width="267" height="160">
           <div class="country">
             <h2 class="country-title">
-              Brazil
+              <a href="#" class="country-link">Germany</a>
             </h2>
-            <p class="country-text">
-              <span class="bold-text">Population:</span> 206,135,893 <br>
-              <span class="bold-text">Region:</span> Americas <br>
-              <span class="bold-text">Capital:</span> Brasília
-            </p>
+            <dl class="country-list">
+              <dd class="country-list-item">Population:</dd>
+              <dt class="country-list-type">206,135,893</dt>
+            </dl>
+            <dl class="country-list">
+              <dd class="country-list-item">Region:</dd>
+              <dt class="country-list-type">Americas</dt>
+            </dl>
+            <dl class="country-list">
+              <dd class="country-list-item">Capital:</dd>
+              <dt class="country-list-type">Brasília</dt>
+            </dl>
           </div>
         </div>
         <div class="countries">
-          <img class="flags-img" src="img/Iceland.jpg" alt="Iceland flag" width="267" height="160">
+          <img class="flags-img" src="img/Iceland.jpg" srcset="img/Iceland.jpg, img/Iceland@2x.jpg" alt="Iceland flag" width="267" height="160">
           <div class="country">
             <h2 class="country-title">
-              Iceland
+              <a href="#" class="country-link">Iceland</a>
             </h2>
-            <p class="country-text">
-              <span class="bold-text">Population:</span> 334,900 <br>
-              <span class="bold-text">Region:</span> Europe <br>
-              <span class="bold-text">Capital:</span> Reykjavík
-            </p>
+            <dl class="country-list">
+              <dd class="country-list-item">Population:</dd>
+              <dt class="country-list-type">334,300</dt>
+            </dl>
+            <dl class="country-list">
+              <dd class="country-list-item">Region:</dd>
+              <dt class="country-list-type">Europe</dt>
+            </dl>
+            <dl class="country-list">
+              <dd class="country-list-item">Capital:</dd>
+              <dt class="country-list-type">Reykjavík</dt>
+            </dl>
           </div>
         </div>
         <div class="countries">
-          <img class="flags-img" src="img/Afghanistan.jpg" alt="Germany flag" width="267" height="160">
+          <img class="flags-img" src="img/Afghanistan.jpg" srcset="img/Afghanistan.jpg, img/Afghanistan@2x.jpg" alt="Germany flag" width="267" height="160">
           <div class="country">
             <h2 class="country-title">
-              Germany
+              <a href="#" class="country-link">Afghanistan</a>
             </h2>
-            <p class="country-text">
-              <span class="bold-text">Population:</span> 81,770,900 <br>
-              <span class="bold-text">Region:</span> Europe <br>
-              <span class="bold-text">Capital:</span> Berlin
-            </p>
+            <dl class="country-list">
+              <dd class="country-list-item">Population:</dd>
+              <dt class="country-list-type">27,657,145</dt>
+            </dl>
+            <dl class="country-list">
+              <dd class="country-list-item">Region:</dd>
+              <dt class="country-list-type">Asia</dt>
+            </dl>
+            <dl class="country-list">
+              <dd class="country-list-item">Capital:</dd>
+              <dt class="country-list-type">Kabul</dt>
+            </dl>
           </div>
         </div>
         <div class="countries">
-          <img class="flags-img" src="img/Island.jpg" alt="Germany flag" width="267" height="160">
+          <img class="flags-img" src="img/Island.jpg" srcset="img/Island.jpg, img/Island@2x.jpg" alt="Germany flag" width="267" height="160">
           <div class="country">
             <h2 class="country-title">
-              Germany
+              <a href="#" class="country-link">Åland Islands</a>
             </h2>
-            <p class="country-text">
-              <span class="bold-text">Population:</span> 81,770,900 <br>
-              <span class="bold-text">Region:</span> Europe <br>
-              <span class="bold-text">Capital:</span> Berlin
-            </p>
+            <dl class="country-list">
+              <dd class="country-list-item">Population:</dd>
+              <dt class="country-list-type">28,875</dt>
+            </dl>
+            <dl class="country-list">
+              <dd class="country-list-item">Region:</dd>
+              <dt class="country-list-type">Europe</dt>
+            </dl>
+            <dl class="country-list">
+              <dd class="country-list-item">Capital:</dd>
+              <dt class="country-list-type">Mariehamn</dt>
+            </dl>
           </div>
         </div>
         <div class="countries">
-          <img class="flags-img" src="img/Albania.jpg" alt="Germany flag" width="267" height="160">
+          <img class="flags-img" src="img/Albania.jpg" srcset="img/Albania.jpg, img/Albania@2x.jpg" alt="Germany flag" width="267" height="160">
           <div class="country">
             <h2 class="country-title">
-              Germany
+              <a href="#" class="country-link">Albania</a>
             </h2>
-            <p class="country-text">
-              <span class="bold-text">Population:</span> 81,770,900 <br>
-              <span class="bold-text">Region:</span> Europe <br>
-              <span class="bold-text">Capital:</span> Berlin
-            </p>
+            <dl class="country-list">
+              <dd class="country-list-item">Population:</dd>
+              <dt class="country-list-type">2,886,026</dt>
+            </dl>
+            <dl class="country-list">
+              <dd class="country-list-item">Region:</dd>
+              <dt class="country-list-type">Europe</dt>
+            </dl>
+            <dl class="country-list">
+              <dd class="country-list-item">Capital:</dd>
+              <dt class="country-list-type">Tirana</dt>
+            </dl>
           </div>
         </div>
         <div class="countries">
-          <img class="flags-img" src="img/Algeria.jpg" alt="Germany flag" width="267" height="160">
+          <img class="flags-img" src="img/Algeria.jpg" srcset="img/Algeria.jpg, img/Algeria@2x.jpg" alt="Germany flag" width="267" height="160">
           <div class="country">
             <h2 class="country-title">
-              Germany
+              <a href="#" class="country-link">Algeria</a>
             </h2>
-            <p class="country-text">
-              <span class="bold-text">Population:</span> 81,770,900 <br>
-              <span class="bold-text">Region:</span> Europe <br>
-              <span class="bold-text">Capital:</span> Berlin
-            </p>
+            <dl class="country-list">
+              <dd class="country-list-item">Population:</dd>
+              <dt class="country-list-type">40,400,000</dt>
+            </dl>
+            <dl class="country-list">
+              <dd class="country-list-item">Region:</dd>
+              <dt class="country-list-type">Africa</dt>
+            </dl>
+            <dl class="country-list">
+              <dd class="country-list-item">Capital:</dd>
+              <dt class="country-list-type">Algiers</dt>
+            </dl>
           </div>
         </div>
       </div>
