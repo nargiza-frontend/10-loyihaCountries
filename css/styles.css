@@ -204,6 +204,7 @@ img {
   grid-template-areas: "card card card card";
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 75px;
+  margin-bottom: 45px;
 }
 .countries{
   box-sizing: border-box;
