@@ -216,6 +216,7 @@ img {
 }
 .flags-img{
   display: block;
+  border-radius: 5px;
 }
 .country{
   /* display: flex;
@@ -269,4 +270,66 @@ img {
 }
 .country-list-type{
   font-weight: 300;
+}
+
+/* Germany.html */
+.click-to-back{
+  border: none;
+  background: transparent;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  color: var(--text-color)
+}
+.country-about{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.germany-flag{
+  object-fit: cover;
+}
+.country-info{
+  max-width: 598px;
+  min-height: 323px;
+}
+.country-info-title{
+  margin-top: 0;
+  margin-bottom: 23px;
+  font-size: 32px;
+  line-height: 44px;
+  font-weight: 800;
+  color: var(--text-color);
+}
+.nav-list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 68px;
+}
+.nav-list-item:not(:last-child){
+  margin-right: 140px;
+}
+.country-list-information{
+  font-size: 16px;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+.country-list-link{
+  text-decoration: none;
+  color: var(--text-color);
+  border: 1px solid #979797;
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  padding: 4px 19px;
+}
+.border-country:first-child{
+  margin-right: 15px;
+}
+.border-country:not(:first-child){
+  margin-right: 10px;
 }
